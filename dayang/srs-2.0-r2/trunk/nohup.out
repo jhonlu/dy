@@ -1,0 +1,83 @@
+[2019-10-23 11:29:59.498][trace][1405][0] XCORE-SRS/2.0.243(ZhouGuowen)
+[2019-10-23 11:29:59.501][trace][1405][0] config parse complete
+[2019-10-23 11:29:59.503][trace][1405][0] write log to console
+[2019-10-23 11:29:59.504][trace][1405][0] srs checking config...
+[2019-10-23 11:29:59.504][trace][1405][0] detect intranet address: 127.0.0.1, ifname=lo
+[2019-10-23 11:29:59.504][trace][1405][0] retrieve local ipv4 ip=10.0.5.168, index=0
+[2019-10-23 11:29:59.504][trace][1405][0] detect intranet address: 10.0.5.168, ifname=ens33
+[33m[2019-10-23 11:29:59.504][warn][1405][0][0] stats network use index=0, ip=10.0.5.168
+[0m[33m[2019-10-23 11:29:59.504][warn][1405][0][0] stats disk not configed, disk iops disabled.
+[0m[2019-10-23 11:29:59.504][trace][1405][0] write log to console
+[2019-10-23 11:29:59.507][trace][1405][0] SRS/2.0.243(ZhouGuowen), stable is SRS/1.0release
+[2019-10-23 11:29:59.507][trace][1405][0] license: The MIT License (MIT), Copyright (c) 2013-2015 SRS(ossrs)
+[2019-10-23 11:29:59.507][trace][1405][0] primary/master: SRS/1.0release
+[2019-10-23 11:29:59.507][trace][1405][0] authors: winlin,wenjie.zhao
+[2019-10-23 11:29:59.507][trace][1405][0] contributors: winlin<winlin@vip.126.com> wenjie.zhao<740936897@qq.com> xiangcheng.liu<liuxc0116@foxmail.com> naijia.liu<youngcow@youngcow.net> alcoholyi<alcoholyi@qq.com> byteman<wangchen2011@gmail.com> chad.wang<chad.wang.cn@gmail.com> suhetao<suhetao@gmail.com> Johnny<fengjihu@163.com> karthikeyan<keyanmca@gmail.com> StevenLiu<lq@chinaffmpeg.org> zhengfl<zhengfl_1989@126.com> tufang14<breadbean1449@gmail.com> allspace<allspace@gmail.com> niesongsong<nie950@gmail.com> rudeb0t<nimrod@themanxgroup.tw> CallMeNP<np.liamg@gmail.com> synote<synote@qq.com> lovecat<littlefawn@163.com> panda1986<542638787@qq.com> YueHonghui<hongf.yue@hotmail.com> 
+[2019-10-23 11:29:59.507][trace][1405][0] uname: Linux localhost.localdomain 3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[2019-10-23 11:29:59.507][trace][1405][0] build: 2019-08-20 18:31:10, little-endian
+[2019-10-23 11:29:59.507][trace][1405][0] configure:  --rtmp-hls --with-http-api --with-http-server --with-nginx --with-ffmpeg --with-http-callback --with-transcode --with-stat --with-dvr --with-ingest
+[2019-10-23 11:29:59.507][trace][1405][0] features: --prefix=/usr/local/srs --with-hls --with-hds --with-dvr --with-nginx --with-ssl --with-ffmpeg --with-transcode --with-ingest --with-stat --with-http-callback --with-http-server --without-stream-caster --with-http-api --without-librtmp --without-research --without-utest --without-gperf --without-gmc --without-gmp --without-gcp --without-gprof --without-arm-ubuntu12 --without-mips-ubuntu12 --log-trace
+[2019-10-23 11:29:59.507][trace][1405][0] conf: conf/ingest.conf, limit: 1000
+[2019-10-23 11:29:59.507][trace][1405][0] writev limits write 1024 iovs a time
+[33m[2019-10-23 11:29:59.507][warn][1405][0][0] SRS 2.0.243 is not stable, please use stable branch 1.0release instead
+[0m[2019-10-23 11:29:59.507][trace][1405][0] cpu is amd64, glibc 2.17
+[2019-10-23 11:29:59.507][trace][1405][0] cpu is x86_64, glibc 2.17
+[2019-10-23 11:29:59.507][trace][1405][0] check feature rtmp handshake: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature hls: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature hds: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature http callback: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature http api: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature http server: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature http parser: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature dvr: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature transcode: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature ingest: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature system stat: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature compile nginx: on
+[2019-10-23 11:29:59.507][trace][1405][0] check feature compile ffmpeg: on
+[33m[2019-10-23 11:29:59.507][warn][1405][0][0] stream caster: off
+[0m[2019-10-23 11:29:59.507][trace][1405][0] MR(merged-read): on, @see https://github.com/ossrs/srs/issues/241
+[2019-10-23 11:29:59.507][trace][1405][0] MR(merged-read) default 0 sleep 350
+[2019-10-23 11:29:59.507][trace][1405][0] MW(merged-write) default sleep 350
+[2019-10-23 11:29:59.507][trace][1405][0] read chunk stream cache cid [0, 16)
+[2019-10-23 11:29:59.507][trace][1405][0] default gop cache 1, play queue 30s
+[2019-10-23 11:29:59.507][trace][1405][0] complex send algorithm enabled.
+[33m[2019-10-23 11:29:59.507][warn][1405][0][0] TCP_NODELAY enabled, may hurts performance.
+[0m[2019-10-23 11:29:59.507][trace][1405][0] auto guess socket send buffer by merged write
+[2019-10-23 11:29:59.507][trace][1405][0] system default latency in ms: mw(0-350) + mr(0-350) + play-queue(0-30000)
+[2019-10-23 11:29:59.507][trace][1405][0] http: root mount to ./objs/nginx/html
+[2019-10-23 11:29:59.507][trace][1405][0] st_set_eventsys to epoll
+[2019-10-23 11:29:59.507][trace][1405][0] st_init success, use epoll
+[2019-10-23 11:29:59.507][trace][1405][100] server main cid=100, pid=1405, ppid=1, asprocess=0
+[2019-10-23 11:29:59.507][trace][1405][100] write pid=1405 to ./objs/srs.pid success!
+[2019-10-23 11:29:59.519][trace][1405][100] RTMP listen at tcp://0.0.0.0:1935, fd=7
+[2019-10-23 11:29:59.530][trace][1405][100] HTTP-Server listen at tcp://0.0.0.0:8080, fd=8
+[2019-10-23 11:29:59.530][trace][1405][100] signal installed
+[2019-10-23 11:29:59.541][trace][1405][100] http: api mount /console to ./objs/nginx/html/console
+[2019-10-23 11:29:59.542][trace][1405][100] parse success, ingest=33, vhost=__defaultVhost__
+[2019-10-23 11:29:59.542][trace][1405][100] parse success, ingest=40005, vhost=__defaultVhost__
+[2019-10-23 11:29:59.552][trace][1405][100] ingest thread cid=104, current_cid=100
+[2019-10-23 11:29:59.552][trace][1405][104] start ffmpeg, log: ./objs/ffmpeg-ingest-__defaultVhost__-33-33.log, params: ./objs/ffmpeg/bin/ffmpeg -i rtsp://192.168.8.111/1 -vcodec copy -acodec copy -f flv -y rtmp://127.0.0.1:1935/33/33
+[2019-10-23 11:29:59.552][trace][1405][104] fork encoder , pid=1406
+[2019-10-23 11:29:59.553][trace][1405][104] start ffmpeg, log: ./objs/ffmpeg-ingest-__defaultVhost__-40005-40005.log, params: ./objs/ffmpeg/bin/ffmpeg -re -i ./doc/source.200kbps.768x320.flv -vcodec copy -acodec copy -f flv -y rtmp://127.0.0.1:1935/40005/40005
+[2019-10-23 11:29:59.553][trace][1405][104] fork encoder , pid=1407
+[2019-10-23 11:29:59.670][trace][1405][106] RTMP client ip=127.0.0.1
+[2019-10-23 11:29:59.670][trace][1405][106] srand initialized the random.
+[2019-10-23 11:29:59.672][trace][1405][106] complex handshake success
+[2019-10-23 11:29:59.712][trace][1405][106] connect app, tcUrl=rtmp://127.0.0.1:1935/40005, pageUrl=, swfUrl=, schema=rtmp, vhost=__defaultVhost__, port=1935, app=40005, args=null
+[2019-10-23 11:29:59.794][trace][1405][106] client identified, type=fmle-publish, stream_name=40005, duration=-1.00
+[2019-10-23 11:29:59.816][trace][1405][106] source url=/40005/40005, ip=127.0.0.1, cache=1, is_edge=0, source_id=-1[-1]
+[2019-10-23 11:29:59.879][trace][1405][106] hls: win=60.00, frag=10.00, prefix=, path=./objs/nginx/html, m3u8=[app]/[stream].m3u8, ts=[app]/[stream]-[seq].ts, aof=2.00, floor=0, clean=1, waitk=1, dispose=0
+[2019-10-23 11:29:59.890][trace][1405][106] start publish mr=0/350, p1stpt=20000, pnt=5000, tcp_nodelay=0, rtcid=109
+[2019-10-23 11:29:59.956][trace][1405][106] got metadata, width=768, height=320, vcodec=7, acodec=10
+[2019-10-23 11:29:59.956][trace][1405][106] protocol in.buffer=0, in.ack=0, out.ack=2500000, in.chunk=60000, out.chunk=60000
+[2019-10-23 11:29:59.956][trace][1405][106] 46B video sh,  codec(7, profile=High, level=3.2, 768x320, 0kbps, 0fps, 0s)
+[2019-10-23 11:29:59.957][trace][1405][106] 4B audio sh, codec(10, profile=LC, 2channels, 0kbps, 44100HZ), flv(16bits, 2channels, 44100HZ)
+[2019-10-23 11:30:09.571][trace][1405][106] -> HLS time=10046, stream dts=871200(9680ms), sno=1, ts=40005-0.ts, dur=9.68, dva=0p
+[2019-10-23 11:30:11.553][trace][1405][104] -> IGS time=11047, ingesters=2, #1(alive=11s, __defaultVhost__/40005)
+[2019-10-23 11:30:19.570][trace][1405][106] -> HLS time=20047, stream dts=1771200(19680ms), sno=2, ts=40005-1.ts, dur=4.92, dva=0p
+[2019-10-23 11:30:23.553][trace][1405][104] -> IGS time=23047, ingesters=2, #1(alive=23s, __defaultVhost__/40005)
+[2019-10-23 11:30:24.890][trace][1405][106] <- CPB time=20047, okbps=1,0,0, ikbps=284,0,0, mr=0/350, p1stpt=20000, pnt=5000
+[2019-10-23 11:30:29.568][trace][1405][106] -> HLS time=30048, stream dts=2671200(29680ms), sno=3, ts=40005-2.ts, dur=3.24, dva=0p
+[2019-10-23 11:30:34.891][trace][1405][106] <- CPB time=30048, okbps=0,1,0, ikbps=272,276,0, mr=0/350, p1stpt=20000, pnt=5000
+[2019-10-23 11:30:35.555][trace][1405][104] -> IGS time=35050, ingesters=2, #0(alive=35s, __defaultVhost__/33)
